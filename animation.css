@@ -39,11 +39,11 @@
     }
     37.5% {
         left: 300px;
-        top: 900px;
+        top: 300px;
     }
     50% {
         left: 400px;
-        top: 1000px;
+        top: 800px;
     }
     62.5% {
         left: 300px;
@@ -244,7 +244,7 @@ img {
 #animatebird {
     position: absolute;
     animation-name: bird;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     width: 150px;
     height: 150px;
