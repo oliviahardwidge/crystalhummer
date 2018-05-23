@@ -1,0 +1,259 @@
+/* The animation code */
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+        transform: rotate(360deg);
+    }
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes bird {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    12.5% {
+        left: 200px;
+        top: 200px;
+    }
+    25% {
+        left: 1000px;
+        top: 500px;
+    }
+    37.5% {
+        left: 300px;
+        top: 900px;
+    }
+    50% {
+        left: 400px;
+        top: 1000px;
+    }
+    62.5% {
+        left: 300px;
+        top: 990px;
+    }
+    75% {
+        left: 1000px;
+        top: 500px;
+    }
+    87.5% {
+        left: 200px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#olivia {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes changesize {
+    0% {
+        font-size: 20px;
+        color: pink;
+    }
+    25% {
+        font-size: 120px;
+        color: mediumpurple;
+    }
+    50% {
+        font-size: 20px;
+        color: lightblue
+    }
+    75% {
+        font-size: 120px;
+        color: lightpink
+    }
+    100% {
+        font-size: 20px;
+        color: pink;
+    }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#animate1 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate2 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate3 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate4 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate5 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate5 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate6 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate7 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate8 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate9 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate10 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate11 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate12 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate13 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate14 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate15 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate16 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate17 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate18 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate19 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate19 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate20 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate21 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animate22 {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#animatebird {
+    position: absolute;
+    animation-name: bird;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    animation-name: changesize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: lightpink;
+    font-family: brushstroke, fantasy;
+}
