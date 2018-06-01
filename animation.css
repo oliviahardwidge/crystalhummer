@@ -103,6 +103,10 @@ img {
     animation-iteration-count: infinite;
 }
 
+#animate1:hover{
+    width:1000px
+}
+
 #animate2 {
     animation-name: example;
     animation-duration: 2s;
@@ -243,17 +247,13 @@ img {
 
 #animatebird {
     position: absolute;
-    animation-name: bird;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+
     width: 150px;
     height: 150px;
 }
 
-h1 {
-    animation-name: changesize;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    color: lightpink;
+#clickcolor {
+ 
+    color: black;
     font-family: brushstroke, fantasy;
 }
